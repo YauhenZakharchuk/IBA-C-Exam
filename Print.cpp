@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <windows.h>
 #include <string>
 #include <iostream>
@@ -9,11 +9,11 @@ using namespace std;
 void print(Person* employee, int size) {
 	int i;
 	cout << setw(5) << "ID"
-		<< setw(25) << "ÔÈÎ ðàáîòíèêà"
-		<< setw(15) << "Äîëæíîñòü"
-		<< setw(8) << "×àñû"
-		<< setw(10) << "Ñòàâêà"
-		<< setw(12) << "Çàðïëàòà" << endl;
+		<< setw(25) << "Ð¤Ð˜Ðž Ñ€Ð°Ð±Ð¾Ñ‚Ð½Ð¸ÐºÐ°"
+		<< setw(15) << "Ð”Ð¾Ð»Ð¶Ð½Ð¾ÑÑ‚ÑŒ"
+		<< setw(8) << "Ð§Ð°ÑÑ‹"
+		<< setw(10) << "Ð¡Ñ‚Ð°Ð²ÐºÐ°"
+		<< setw(12) << "Ð—Ð°Ñ€Ð¿Ð»Ð°Ñ‚Ð°" << endl;
 	for (i = 0; i < EMPLOYEES; i++) {
 		cout << setw(5) << employee[i].id
 			<< setw(25) << employee[i].name
